@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8211EABD212E627C002CCDC7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8211EABC212E627C002CCDC7 /* AppDelegate.m */; };
+		8211EAC0212E627C002CCDC7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8211EABF212E627C002CCDC7 /* ViewController.m */; };
+		8211EAC3212E627C002CCDC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8211EAC1212E627C002CCDC7 /* Main.storyboard */; };
+		8211EAC5212E6281002CCDC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8211EAC4212E6281002CCDC7 /* Assets.xcassets */; };
+		8211EAC8212E6281002CCDC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8211EAC6212E6281002CCDC7 /* LaunchScreen.storyboard */; };
+		8211EACB212E6281002CCDC7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8211EACA212E6281002CCDC7 /* main.m */; };
+		8211EAD5212E6282002CCDC7 /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8211EAD4212E6282002CCDC7 /* _____Tests.m */; };
+		8211EAE0212E6282002CCDC7 /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8211EADF212E6282002CCDC7 /* _____UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8211EAD1212E6282002CCDC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8211EAB0212E627B002CCDC7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8211EAB7212E627B002CCDC7;
+			remoteInfo = "摄像头取色";
+		};
+		8211EADC212E6282002CCDC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8211EAB0212E627B002CCDC7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8211EAB7212E627B002CCDC7;
+			remoteInfo = "摄像头取色";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8211EAB8212E627B002CCDC7 /* 摄像头取色.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "摄像头取色.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8211EABB212E627C002CCDC7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8211EABC212E627C002CCDC7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8211EABE212E627C002CCDC7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8211EABF212E627C002CCDC7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8211EAC2212E627C002CCDC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8211EAC4212E6281002CCDC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8211EAC7212E6281002CCDC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8211EAC9212E6281002CCDC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8211EACA212E6281002CCDC7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8211EAD0212E6282002CCDC7 /* 摄像头取色Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "摄像头取色Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8211EAD4212E6282002CCDC7 /* _____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____Tests.m"; sourceTree = "<group>"; };
+		8211EAD6212E6282002CCDC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8211EADB212E6282002CCDC7 /* 摄像头取色UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "摄像头取色UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8211EADF212E6282002CCDC7 /* _____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____UITests.m"; sourceTree = "<group>"; };
+		8211EAE1212E6282002CCDC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8211EAB5212E627B002CCDC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8211EACD212E6282002CCDC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8211EAD8212E6282002CCDC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8211EAAF212E627B002CCDC7 = {
+			isa = PBXGroup;
+			children = (
+				8211EABA212E627C002CCDC7 /* 摄像头取色 */,
+				8211EAD3212E6282002CCDC7 /* 摄像头取色Tests */,
+				8211EADE212E6282002CCDC7 /* 摄像头取色UITests */,
+				8211EAB9212E627B002CCDC7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8211EAB9212E627B002CCDC7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8211EAB8212E627B002CCDC7 /* 摄像头取色.app */,
+				8211EAD0212E6282002CCDC7 /* 摄像头取色Tests.xctest */,
+				8211EADB212E6282002CCDC7 /* 摄像头取色UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8211EABA212E627C002CCDC7 /* 摄像头取色 */ = {
+			isa = PBXGroup;
+			children = (
+				8211EABB212E627C002CCDC7 /* AppDelegate.h */,
+				8211EABC212E627C002CCDC7 /* AppDelegate.m */,
+				8211EABE212E627C002CCDC7 /* ViewController.h */,
+				8211EABF212E627C002CCDC7 /* ViewController.m */,
+				8211EAC1212E627C002CCDC7 /* Main.storyboard */,
+				8211EAC4212E6281002CCDC7 /* Assets.xcassets */,
+				8211EAC6212E6281002CCDC7 /* LaunchScreen.storyboard */,
+				8211EAC9212E6281002CCDC7 /* Info.plist */,
+				8211EACA212E6281002CCDC7 /* main.m */,
+			);
+			path = "摄像头取色";
+			sourceTree = "<group>";
+		};
+		8211EAD3212E6282002CCDC7 /* 摄像头取色Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8211EAD4212E6282002CCDC7 /* _____Tests.m */,
+				8211EAD6212E6282002CCDC7 /* Info.plist */,
+			);
+			path = "摄像头取色Tests";
+			sourceTree = "<group>";
+		};
+		8211EADE212E6282002CCDC7 /* 摄像头取色UITests */ = {
+			isa = PBXGroup;
+			children = (
+				8211EADF212E6282002CCDC7 /* _____UITests.m */,
+				8211EAE1212E6282002CCDC7 /* Info.plist */,
+			);
+			path = "摄像头取色UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8211EAB7212E627B002CCDC7 /* 摄像头取色 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8211EAE4212E6282002CCDC7 /* Build configuration list for PBXNativeTarget "摄像头取色" */;
+			buildPhases = (
+				8211EAB4212E627B002CCDC7 /* Sources */,
+				8211EAB5212E627B002CCDC7 /* Frameworks */,
+				8211EAB6212E627B002CCDC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "摄像头取色";
+			productName = "摄像头取色";
+			productReference = 8211EAB8212E627B002CCDC7 /* 摄像头取色.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8211EACF212E6282002CCDC7 /* 摄像头取色Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8211EAE7212E6282002CCDC7 /* Build configuration list for PBXNativeTarget "摄像头取色Tests" */;
+			buildPhases = (
+				8211EACC212E6282002CCDC7 /* Sources */,
+				8211EACD212E6282002CCDC7 /* Frameworks */,
+				8211EACE212E6282002CCDC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8211EAD2212E6282002CCDC7 /* PBXTargetDependency */,
+			);
+			name = "摄像头取色Tests";
+			productName = "摄像头取色Tests";
+			productReference = 8211EAD0212E6282002CCDC7 /* 摄像头取色Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8211EADA212E6282002CCDC7 /* 摄像头取色UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8211EAEA212E6282002CCDC7 /* Build configuration list for PBXNativeTarget "摄像头取色UITests" */;
+			buildPhases = (
+				8211EAD7212E6282002CCDC7 /* Sources */,
+				8211EAD8212E6282002CCDC7 /* Frameworks */,
+				8211EAD9212E6282002CCDC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8211EADD212E6282002CCDC7 /* PBXTargetDependency */,
+			);
+			name = "摄像头取色UITests";
+			productName = "摄像头取色UITests";
+			productReference = 8211EADB212E6282002CCDC7 /* 摄像头取色UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8211EAB0212E627B002CCDC7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = WangMingDeveloper;
+				TargetAttributes = {
+					8211EAB7212E627B002CCDC7 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					8211EACF212E6282002CCDC7 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 8211EAB7212E627B002CCDC7;
+					};
+					8211EADA212E6282002CCDC7 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 8211EAB7212E627B002CCDC7;
+					};
+				};
+			};
+			buildConfigurationList = 8211EAB3212E627B002CCDC7 /* Build configuration list for PBXProject "摄像头取色" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8211EAAF212E627B002CCDC7;
+			productRefGroup = 8211EAB9212E627B002CCDC7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8211EAB7212E627B002CCDC7 /* 摄像头取色 */,
+				8211EACF212E6282002CCDC7 /* 摄像头取色Tests */,
+				8211EADA212E6282002CCDC7 /* 摄像头取色UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8211EAB6212E627B002CCDC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8211EAC8212E6281002CCDC7 /* LaunchScreen.storyboard in Resources */,
+				8211EAC5212E6281002CCDC7 /* Assets.xcassets in Resources */,
+				8211EAC3212E627C002CCDC7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8211EACE212E6282002CCDC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8211EAD9212E6282002CCDC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8211EAB4212E627B002CCDC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8211EAC0212E627C002CCDC7 /* ViewController.m in Sources */,
+				8211EACB212E6281002CCDC7 /* main.m in Sources */,
+				8211EABD212E627C002CCDC7 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8211EACC212E6282002CCDC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8211EAD5212E6282002CCDC7 /* _____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8211EAD7212E6282002CCDC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8211EAE0212E6282002CCDC7 /* _____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8211EAD2212E6282002CCDC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8211EAB7212E627B002CCDC7 /* 摄像头取色 */;
+			targetProxy = 8211EAD1212E6282002CCDC7 /* PBXContainerItemProxy */;
+		};
+		8211EADD212E6282002CCDC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8211EAB7212E627B002CCDC7 /* 摄像头取色 */;
+			targetProxy = 8211EADC212E6282002CCDC7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8211EAC1212E627C002CCDC7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8211EAC2212E627C002CCDC7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8211EAC6212E6281002CCDC7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8211EAC7212E6281002CCDC7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8211EAE2212E6282002CCDC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8211EAE3212E6282002CCDC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8211EAE5212E6282002CCDC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TKVWCL3VFY;
+				INFOPLIST_FILE = "摄像头取色/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.heaton.colorPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8211EAE6212E6282002CCDC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TKVWCL3VFY;
+				INFOPLIST_FILE = "摄像头取色/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.heaton.colorPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8211EAE8212E6282002CCDC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TKVWCL3VFY;
+				INFOPLIST_FILE = "摄像头取色Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.heaton.wangming.-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/摄像头取色.app/摄像头取色";
+			};
+			name = Debug;
+		};
+		8211EAE9212E6282002CCDC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TKVWCL3VFY;
+				INFOPLIST_FILE = "摄像头取色Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.heaton.wangming.-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/摄像头取色.app/摄像头取色";
+			};
+			name = Release;
+		};
+		8211EAEB212E6282002CCDC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TKVWCL3VFY;
+				INFOPLIST_FILE = "摄像头取色UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.heaton.wangming.-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "摄像头取色";
+			};
+			name = Debug;
+		};
+		8211EAEC212E6282002CCDC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TKVWCL3VFY;
+				INFOPLIST_FILE = "摄像头取色UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.heaton.wangming.-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "摄像头取色";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8211EAB3212E627B002CCDC7 /* Build configuration list for PBXProject "摄像头取色" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8211EAE2212E6282002CCDC7 /* Debug */,
+				8211EAE3212E6282002CCDC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8211EAE4212E6282002CCDC7 /* Build configuration list for PBXNativeTarget "摄像头取色" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8211EAE5212E6282002CCDC7 /* Debug */,
+				8211EAE6212E6282002CCDC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8211EAE7212E6282002CCDC7 /* Build configuration list for PBXNativeTarget "摄像头取色Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8211EAE8212E6282002CCDC7 /* Debug */,
+				8211EAE9212E6282002CCDC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8211EAEA212E6282002CCDC7 /* Build configuration list for PBXNativeTarget "摄像头取色UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8211EAEB212E6282002CCDC7 /* Debug */,
+				8211EAEC212E6282002CCDC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8211EAB0212E627B002CCDC7 /* Project object */;
+}
