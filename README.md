@@ -43,11 +43,13 @@ DEMO压缩包下载即可运行，其中DEMO内已经附带了SDK的库。
 + (instancetype)shareInstance;
 ```
 
-##### 3、扫描指定目标设备
+##### 3、扫描目标设备
 ```
 /**
- 寻找设备,回调的设备保护未连接或已连接两种类型。具体
+ 寻找设备,回调的设备包含未连接或已连接两种类型。具体
  属性查看XDDeviceModel对象属性定义
+ isConnect = NO 未连接
+ isConnect = YES 已连接
 
  @param disCoverCallBack 寻找到的设备回调
 */
